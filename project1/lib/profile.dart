@@ -18,7 +18,7 @@ class _ProfileSetState extends State<ProfileSet> {
             const Text(
               'Please select your profile',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
             ),

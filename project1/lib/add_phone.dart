@@ -54,32 +54,35 @@ class _AddPhoneState extends State<AddPhone> {
       body: SafeArea(
         child: Center(
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 35),
+            padding: const EdgeInsets.symmetric(vertical: 35, horizontal: 35),
             child: Column(
               children: [
-                const Text(
-                  "Please select your Language",
-                  style: TextStyle(
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold,
+                const Padding(
+                  padding: EdgeInsets.only(top: 40.0),
+                  child: Text(
+                    "Please select your Language",
+                    style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 10),
                 const Text(
                   "You'll receive a 6 digit code",
                   style: TextStyle(
-                    fontSize: 14,
-                    color: Color.fromARGB(96, 119, 117, 117),
+                    fontSize: 16,
+                    color: Color.fromARGB(95, 97, 96, 96),
                     fontWeight: FontWeight.bold,
                   ),
                   textAlign: TextAlign.center,
                 ),
-                const SizedBox(height: 10),
+                //const SizedBox(height: 10),
                 const Text(
                   "to verify next.",
                   style: TextStyle(
-                    fontSize: 14,
-                    color: Color.fromARGB(96, 119, 117, 117),
+                    fontSize: 16,
+                    color: Color.fromARGB(95, 97, 96, 96),
                     fontWeight: FontWeight.bold,
                   ),
                   textAlign: TextAlign.center,
