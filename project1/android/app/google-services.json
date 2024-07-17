@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674974861180",
+    "project_id": "otpverify-48aa0",
+    "storage_bucket": "otpverify-48aa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674974861180:android:a24d878501306779c706f9",
+        "android_client_info": {
+          "package_name": "com.example.project1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2NQLFzuwJ3B_fDa0MFd0SZa59RgZ_5KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
